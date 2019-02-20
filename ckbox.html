@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Check Box demo</title>
+	<script type="text/javascript">
+		function checkbox()
+		{
+  			    var bk=document.getElementById("bk").checked;;
+   				 var cer=document.getElementById("cr").checked;
+   				 if(bk) alert(" Bike");
+   			 if(cer) alert(" Car");   
+			return false;   
+
+		}
+	</script>
+</head>
+<body>
+	<form>
+    <input type="checkbox" id="bk" name="vehicle" value="Bike">I have a bike<br></br>
+    <input type="checkbox" id="cr" name="vehicle" value="Car">I have a car<br></br> 
+     <input type="submit" value="   Print   " size="30" onClick="checkbox();">
+</form> 
+</body>
